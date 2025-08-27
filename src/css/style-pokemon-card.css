@@ -1,0 +1,138 @@
+/* .normal {
+    background: #9b9b8d;
+} */
+
+/* .pokemon.normal {
+    background: linear-gradient(to right bottom,
+            rgba(145, 153, 163, 1),
+            rgb(165, 163, 153));
+} */
+/* 
+.fire {
+    background-color: #FA9C52;
+}
+
+.water {
+    background-color: #549EDE;
+}
+
+.grass {
+    background-color: #5EBD52;
+}
+
+.flying {
+    background-color: #8FA6D9;
+}
+
+.fighting {
+    background-color: #CF4266;
+}
+
+.poison {
+    background-color: #A863C7;
+}
+
+.electric {
+    background-color: #EDD63D;
+}
+
+.ground {
+    background-color: #c9724a;
+}
+
+.rock {
+    background-color: #C4B58A;
+}
+
+.psychic {
+    background-color: #e63c8b;
+}
+
+.ice {
+    background-color: #70CCBD;
+}
+
+.bug {
+    background-color: #B0C736;
+}
+
+.ghost {
+    background-color: #526BAB;
+}
+
+.steel {
+    background-color: #52879E;
+}
+
+.dragon {
+    background-color: #8165ff;
+}
+
+.dark {
+    background-color: #595761;
+}
+
+.fairy {
+    background-color: #ED8CE6;
+} */
+
+
+li.pokemon {
+    background-image: url(../img/pokeball-card.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 150px;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    margin: 8rem;
+    padding: 16rem;
+    border-radius: 16rem;
+    transition: 0.3s ease-in-out; 
+    cursor: pointer;
+}
+
+
+.pokemon:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+}
+
+.number {
+    align-self: flex-end;
+    font-weight: 500;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 24rem;
+    text-transform: capitalize;
+}
+
+.type {
+    border-radius: 15rem;
+    padding: 3rem;
+    width: 70rem;
+    margin: 15rem 0;
+    text-align: center;
+    text-transform: capitalize;
+    filter: brightness(1.25);
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 16rem; */
+
+}
+
+img {
+    max-width: 100rem;
+    height: 100rem;
+    align-self: flex-end;
+    background-size: contain;
+    cursor:pointer;
+}
