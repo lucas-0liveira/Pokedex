@@ -17,14 +17,14 @@ Desenvolvido com **HTML**, **CSS** e **JavaScript puro**, sem o uso de framework
 1. Clone este repositório para sua máquina local:
    ```bash
    git clone https://github.com/lucas-0liveira/Pokedex.git
-```
+    ```
 
 2. Abra o arquivo `index.html` em seu navegador:
 
-```
-cd pokedex
-open index.html
-```
+    ```
+    cd pokedex
+    open index.html
+    ```
 
 **Estrutura do Projeto:**
 
