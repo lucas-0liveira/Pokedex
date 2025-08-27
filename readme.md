@@ -1,22 +1,22 @@
-## Projeto Pokedex
+# 📘 Projeto Pokedex
 
-**Descrição:**
+## 🧾 Descrição
 
-Este é um projeto pessoal que utiliza a PokeAPI para listar Pokémons e exibir detalhes de cada um deles. O projeto foi desenvolvido utilizando HTML, CSS e JavaScript puros, sem o uso de frameworks ou bibliotecas adicionais.
+Este é um projeto pessoal que utiliza a [PokeAPI](https://pokeapi.co/) para listar Pokémons e exibir detalhes de cada um deles.  
+Desenvolvido com **HTML**, **CSS** e **JavaScript puro**, sem o uso de frameworks ou bibliotecas externas.
 
-**Funcionalidades:**
+## ⚙️ Funcionalidades
 
-* **Listagem de Pokémons:** Ao acessar a página inicial, você verá uma lista de Pokémons.
-* **Detalhes do Pokémon:** Ao clicar em um Pokémon da lista, os detalhes desse Pokémon serão exibidos em um modal.
-* **Pesquisa por Nome:** Implementada uma barra de pesquisa para buscar um Pokémon específico por nome.
-* **pagina para Detalhes:** A página com detalhes do Pokémon.
+- 🔍 **Listagem de Pokémons**: Exibe uma lista de Pokémons na página inicial.
+- 📋 **Detalhes do Pokémon**: Ao clicar em um Pokémon, um modal com suas informações detalhadas é exibido.
+- 🔎 **Pesquisa por Nome**: Barra de busca para localizar um Pokémon específico.
+- 🧾 **Página de Detalhes**: Exibição dedicada com informações do Pokémon selecionado.
 
-**Como Usar:**
+## 🚀 Como Usar
 
 1. Clone este repositório para sua máquina local:
-
-```
-git clone https://github.com/IlnaraAckermann/Pokedex.git
+   ```bash
+   git clone https://github.com/lucas-0liveira/Pokedex.git
 ```
 
 2. Abra o arquivo `index.html` em seu navegador:
@@ -28,7 +28,7 @@ open index.html
 
 **Estrutura do Projeto:**
 
-O projeto está estruturado da seguinte maneira:
+O projeto está organizado da seguinte forma:
 
 * `index.html`: Página principal que lista os Pokémons e inclui a barra de pesquisa.
 * `src/css`: pastas com os estilos CSS para o layout e design do projeto.
@@ -56,3 +56,50 @@ O projeto está estruturado da seguinte maneira:
 Sinta-se à vontade para enviar sugestões, melhorias e correções de bugs. Se encontrar algum problema ou tiver ideias para novas funcionalidades, abra uma issue ou envie um pull request.
 
 **Espero que este projeto seja útil e divertido para explorar e aprender mais sobre os Pokémons!** 
+### 📁 Estrutura do Projeto
+
+O projeto está organizado da seguinte forma:
+
+- `index.html`: Página principal que exibe a listagem de Pokémons e a barra de pesquisa.
+- `src/css/`: Pasta contendo os arquivos de estilo (CSS) responsáveis pelo layout e visual da aplicação.
+- `src/js/`: Scripts JavaScript responsáveis pelas funcionalidades da aplicação, como:
+  - Listagem de Pokémons
+  - Busca por nome
+  - Exibição dos detalhes dos Pokémons
+- `components/`: Componentes web reutilizáveis utilizados na interface do projeto:
+  - `pokemon-card.html`: Componente visual que representa cada Pokémon na listagem.
+  - `pokemon-modal.html`: Componente modal que exibe os detalhes do Pokémon selecionado.
+
+---
+
+### 🔮 Próximos Passos
+
+- 🧩 **Modal**: Melhorar a exibição dos detalhes em uma janela modal.
+- ⭐ **Favoritos**: Permitir que o usuário marque Pokémons como favoritos.
+- 🌈 **Filtro por Tipo**: Adicionar filtros para listar Pokémons por tipo (fogo, água, elétrico etc.).
+- 🎨 **Aprimoramento Visual**: Otimizar o design e a experiência do usuário (UX/UI).
+
+---
+
+### 🛠️ Tecnologias Utilizadas
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **PokeAPI** – [https://pokeapi.co/](https://pokeapi.co/)
+
+---
+
+### 🤝 Contribuição
+
+Contribuições são muito bem-vindas!  
+Se você encontrou algum bug, tem sugestões de melhorias ou deseja colaborar com novas funcionalidades, sinta-se à vontade para:
+
+- Abrir uma **issue**
+- Enviar um **pull request**
+
+---
+
+### 🎉 Considerações Finais
+
+Espero que este projeto seja útil, educativo e divertido para quem deseja aprender mais sobre desenvolvimento web enquanto explora o universo Pokémon!
